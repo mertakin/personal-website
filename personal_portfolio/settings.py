@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'higs8k#8j(i(@t#j7(zs0llkevbqi3r_%uwn)hd%*c7=#am+s$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['akinn.pythonanywhere.com']
 
 
 # Application definition
@@ -120,8 +120,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS=("/portfolio/static",)
-#STATIC_ROOT = os.path.join(BASE_DIR + '/portfolio/static/portfolio')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 
 MEDIA_URL = '/media/'
