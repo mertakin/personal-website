@@ -25,7 +25,7 @@ SECRET_KEY = 'higs8k#8j(i(@t#j7(zs0llkevbqi3r_%uwn)hd%*c7=#am+s$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['akinn.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.mertakin.net']
 
 
 # Application definition
